@@ -1,0 +1,16 @@
+print('\n\n Q8-5')
+def describe_city(city, country='Nigeria'):
+    print(f"{city} is a city from {country.title()}")
+
+describe_city("Yobe")
+describe_city("Abuja", )
+describe_city("Bujumbra", "Burindi")
+describe_city("Wolverhampton", "England")
+
+print('\n\n Q8-6')
+def city_country(city, country):
+    print(f"{city}, {country.title()}")
+    
+city_country("Borno", "Nigeria")
+city_country("Riyad", "Saudi Arabiya")
+city_country("senegal", "Dakar")
